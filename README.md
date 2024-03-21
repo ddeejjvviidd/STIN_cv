@@ -7,22 +7,37 @@
 
 [https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init)
 
-## Working with repositories
+## Basic operations with git
 
-**Clone a repository using SSH**
-- git clone git@gitlab.tul.cz:david.salek/stin.git
+```bash
+#Clone a repository using SSH
+git clone git@gitlab.tul.cz:david.salek/stin.git
+```
 
-**Adding files to be updated/uploaded**
-- git add file
+```bash
+#Adding files to be updated/uploaded
+git add file
+```
 
-**Committing changes**
-- git commit -m "Comment"
+```bash
+#Removing files from repositary
+git rm file
+```
 
-**Pushing to the repository**
-- git push origin branch_name
+```bash
+#Committing changes
+git commit -m "Commit comment"
+```
 
-**Changing a branch**
-- git branch -M branch_name
+```bash
+#Pushing to the repository
+git push origin branch_name
+```
+
+```bash
+#Changing a branch
+git branch -M branch_name
+```
 
 ***
 
