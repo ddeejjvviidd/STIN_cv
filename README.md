@@ -9,33 +9,33 @@
 
 ## Basic operations with git
 
+#### Clone a repository using SSH
 ```bash
-#Clone a repository using SSH
 git clone git@gitlab.tul.cz:david.salek/stin.git
 ```
 
+#### Adding files to be updated/uploaded
 ```bash
-#Adding files to be updated/uploaded
 git add file
 ```
 
+#### Removing files from repositary
 ```bash
-#Removing files from repositary
 git rm file
 ```
 
+#### Committing changes
 ```bash
-#Committing changes
 git commit -m "Commit comment"
 ```
 
+#### Pushing to the repository
 ```bash
-#Pushing to the repository
 git push origin branch_name
 ```
 
+#### Changing a branch
 ```bash
-#Changing a branch
 git branch -M branch_name
 ```
 
